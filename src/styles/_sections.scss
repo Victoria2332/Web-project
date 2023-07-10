@@ -1,0 +1,161 @@
+main {  
+  background-color: $white;
+  width: 100%;
+
+  color: $white;
+  overflow: hidden;
+}
+
+.section1{
+  font-family: $font-family;
+  color: $white;
+  margin-bottom: $m-1;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 30rem;
+  
+  background-image: url('https://webpulse.imgsmail.ru/imgpreview?mb=webpulse&key=pulse_cabinet-image-1efb29c5-272b-4ffb-9ebf-617ab0130640');
+  background-size: 100% 100%;
+}
+.products__text {
+  font-weight: $font-w-900;
+  font-size: $font-44;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  margin-bottom: $m-2;
+}
+
+.section2 {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  border-radius: 4px;
+
+  margin-top: $m-1;
+  margin-right: $m-6;
+  margin-left: $m-6; 
+  margin-bottom: $m-2;
+}
+
+.section2__group_1,
+.section2__group_2,
+.section2__group_3,
+.section2__group_4{
+  padding: $p-1;
+  
+  width: calc(100% / 4 - 2rem);
+}
+
+.block {
+  justify-content: center;
+  border-radius: 4px;
+
+  margin-bottom: $m-1;
+
+  background-color: $color-block;
+}
+
+.block__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block__title {
+  color: $dark-black;
+  margin-bottom: $m-1;
+  font-weight: $font-w-700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.block__text {
+  color: $light-gray;
+  font-size: $font-14;
+  font-weight: $font-w-400;
+}
+
+.section3 {
+  border-radius: 4px;
+
+  margin-top: $m-1;
+  margin-right: $m-6;
+  margin-left: $m-6; 
+  margin-bottom: $m-2;
+}
+
+.section3__title {
+  color: $dark-black;
+  font-weight: $font-w-700;
+  font-size: $font-36;
+  line-height: 42px;
+
+  margin-bottom: $m-1-5;
+  text-align: center;
+}
+
+.section3__group { 
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.section3__group_1,
+.section3__group_2,
+.section3__group_3 {
+  padding: $p-1;
+  
+  width: calc(100% / 3 - 1rem);  
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section3__image {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.section3__block {
+  background-color: $dark-black;
+  opacity: 0.7;
+
+  padding: $p-1;
+  width: 90%;
+
+  transform: translateY(-100%);
+}
+
+.section3__group_text {
+  color: $white;
+  font-weight: $font-w-700;
+  font-size: $font-14;
+  line-height: 16px;
+ 
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section4 {
+  background-color: $white-darken;
+}
+
+
+
+
+
+
+
+
+

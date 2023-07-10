@@ -1,0 +1,48 @@
+.navigation__text {
+  font-family: $font-family-w;
+  font-size: $font-26;
+  font-weight: $font-w-700;
+  letter-spacing: 0.03em;
+}
+
+.navigation__text span {
+  color: $light-blue;
+}
+
+.navigation {
+  align-self: center;
+}
+
+.navbar__lists {
+  display: flex;
+}
+
+.navbar__list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: $font-w-500;
+
+  font-size: $font-16;
+  padding: $p-1;
+}
+
+.navbar__link {
+  list-style: none;
+  text-decoration: none;
+
+  color: $black;
+}
+
+.navbar__link:hover {
+  padding-bottom: 8px;
+  border-bottom: 2px solid $light-blue;
+  text-transform: capitalize;
+
+  color: $light-blue;
+}
+
+
+
+
+
+
+

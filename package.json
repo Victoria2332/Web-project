@@ -1,0 +1,22 @@
+{
+  "name": "web-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victoria2332/Web-project.git"
+  },
+  "author": "Victora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victoria2332/Web-project/issues"
+  },
+  "homepage": "https://github.com/Victoria2332/Web-project#readme",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  }
+}
